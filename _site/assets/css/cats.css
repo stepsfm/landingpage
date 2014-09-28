@@ -1,0 +1,231 @@
+.challenge-header {
+	background-color: #c3c3c3;
+	padding-top: 30px;
+	padding-left: 30px;
+	height: 370px;
+	margin-bottom: 30px;
+}
+
+.challenge-infos {
+	display: block;
+	float: left;
+	width: 65%;
+}
+
+.challenge-title h2 {
+	padding-left: 15px;
+	color: #FFF;
+	font-size: 2.2em;
+}
+
+.challenge-teaser {
+	color: #FFF;
+	font-size: 1.5em;
+	padding: 15px;
+}
+
+
+#cats-app {
+	display: block;
+	float: left;
+	height: 280px;
+	width: 35%;
+}
+
+
+.cat {
+
+	position: absolute;
+	max-width: 300px;
+	min-height: 300px;
+	border: 1px solid #c3c3c3;
+	background-color: #fff;
+	float: left;
+}
+
+.cat {
+	-webkit-transition: all 0.1s linear;
+	margin-left: -2px;
+	-moz-transform: rotate(2deg);
+	-ms-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+	-webkit-transform: rotate(2deg);
+	
+}
+
+.cat.isNotTop {
+	margin-right: -2px;
+	-moz-transform: rotate(-2deg);
+	-ms-transform: rotate(-2deg);
+	-o-transform: rotate(-2deg);
+	-webkit-transform: rotate(-2deg);
+
+}
+
+.cat.top {
+	z-index: 10;
+	margin-left: 0px;
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+}
+
+.image {
+	top: 0px;
+	display: block;
+	height: 200px;
+
+	background-repeat: no-repeat;
+	background-position: center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: auto;
+}
+
+
+.boxTeaserGradient {
+	display: block;
+	position: absolute;
+	height: auto;
+	left: 0;
+	bottom: 0;
+	background: transparent url(../assets/img/teaser-gradient.png) repeat-x 0 0;
+	padding-top: 30px;
+}
+
+
+.what {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	padding: 10px;
+}
+
+.how {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	padding: 10px;
+}
+
+
+
+.nonDraggableImage{
+    -webkit-user-drag: none;
+}
+
+/*---------------------------------------------------------
+NAV
+---------------------------------------------------------*/
+
+.arrow {
+    position: absolute;
+    z-index: 11;
+    display: block;
+    top: 50%;
+    margin-top: -35px;
+    width: 36px;
+    height: 71px;
+    outline: none;
+    cursor: pointer;
+    background: url(../assets/img/blank.gif) no-repeat;
+}
+
+.arrow.prev {
+    opacity: 0.2;
+    left: 20px;
+    background-image: url(../assets/img/paddle_prev_999.png);
+    transition: 0.2s linear all;
+}
+
+.arrow.next {
+    opacity: 0.2;
+    right: 20px;
+    background-image: url(../assets/img/paddle_next_999.png);
+    transition: 0.2s linear all;
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
+====================================================================== */
+@media only screen and (max-width: 767px) {
+
+	.cat {
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 275px;
+	height: 300px;
+	border: 1px solid #c3c3c3;
+	background-color: #fff;
+	}	
+
+	.challenge-teaser {
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #e9e9e9;
+	}
+
+	.image {
+	height: 154px;
+	}
+	
+	.challenge-header {
+		background: none;
+		padding: 5px;
+	}
+
+	#cats-app {
+		display: block;
+		float: none;
+		height: 350px;
+	}
+
+	.challenge-teaser {
+		font-size: 100%;
+		color: #666;
+		display: block;
+		float: none;
+		padding: 0px;
+	}
+
+	.challenge-infos {
+		width: 100%;
+		display: block;
+		float: none;
+	}
+
+	.challenge-title h2 {
+		padding-left: 0px;
+		color: #666;
+		font-size: 2.2em;
+		
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
+====================================================================== */
+@media only screen and (max-width: 479px) {
+
+	.cat {
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 275px;
+	height: 300px;
+	border: 1px solid #c3c3c3;
+	background-color: #fff;
+	}	
+
+	.challenge-teaser {
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #e9e9e9;
+	}
+
+	.image {
+	height: 154px;
+	}
+
+}
