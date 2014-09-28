@@ -3,7 +3,7 @@ app_name: steps
 description:      Describe your website here.
 mailchimp: mailchimpURL...
 google-analytics: UA-XXXXXXXX-1
-domain: 
+domain: http://stepsfm.github.io/landingpage/
 reading_time:     true
 words_per_minute: 200
 owner:
