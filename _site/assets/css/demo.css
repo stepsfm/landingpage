@@ -1,3 +1,13 @@
+.logo a {
+  padding: 10px;
+  height: 50px;
+  width: 150px;
+  background-image: url(/assets/img/steps-logo.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 20px; 50%;
+}
+
 #lightbulb {
   font-size: 100px;
   display: block;
@@ -68,7 +78,7 @@ h1 {
   padding: 20px;
   overflow: visible;
   height: 420px;
-  margin-top: 80px;
+  margin-top: 20px;
   max-width: 420px;
   margin-right: auto;
   margin-left: auto;
@@ -99,4 +109,17 @@ h1 {
 
 .carousel-inner>.item.active + .item {
   z-index: 1999;
+}
+
+.challenge_description {
+  margin-top: 50px;
+  padding: 20px;
+  background: white;
+}
+
+.challenge_title {
+    padding-top: 15px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
 }
