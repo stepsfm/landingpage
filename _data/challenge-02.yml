@@ -1,18 +1,18 @@
-- title: Vorbereitung
+- title: Step 1
   what: Nulla vitae elit libero, a pharetra augue.
   how: Curabitur blandit tempus porttitor.
   why: Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-  picture: /assets/img/challenge-01/step-01.jpg
+  image: /assets/img/challenge-02/step-01.jpg
 
-- title: Gründung
+- title: Step 2
   what: Nulla vitae elit libero, a pharetra augue.
   how: Curabitur blandit tempus porttitor.
   why: Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-  picture: /assets/img/challenge-01/step-02.jpg
+  image: /assets/img/challenge-02/step-02.jpg
 
-- title: noch ein Step
+- title: Step 3
   what: Nulla vitae elit libero, a pharetra augue.
   how: Curabitur blandit tempus porttitor.
   why: Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-  picture: /assets/img/challenge-01/step-01.jpg
+  image: /assets/img/challenge-02/step-01.jpg
 
