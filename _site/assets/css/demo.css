@@ -19,11 +19,6 @@ h1 {
   margin: 10px 0;
 }
 
-.chat-user-avatar {
-  font-size: 40px;
-  background: #ccc;
-  padding: 5px 10px;
-}
 
 .feature-icon {
   font-size: 44px;
@@ -66,6 +61,9 @@ h1 {
   text-align: center;
 }
 
+.carousel-example-content h4 {
+  margin-top: 20px;
+}
 
 .carousel .item {
   color: #444;
@@ -120,4 +118,8 @@ h1 {
     font-size: 14px;
     line-height: 18px;
     text-align: center;
+}
+
+.step_title {
+
 }
